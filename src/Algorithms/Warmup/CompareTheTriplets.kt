@@ -1,9 +1,8 @@
 package Algorithms.Warmup
 
-import java.util.*
+import java.util.Scanner
 
 fun main(args: Array<String>) {
-
 
     val input = Scanner(System.`in`)
 
@@ -22,8 +21,6 @@ fun main(args: Array<String>) {
 
     compareTheTriplets(a0,a1,a2,b0,b1,b2)
 
-
-
 }
 
 fun compareTheTriplets(a0: Int, a1: Int, a2: Int, b0: Int, b1: Int, b2: Int) {
@@ -31,6 +28,6 @@ fun compareTheTriplets(a0: Int, a1: Int, a2: Int, b0: Int, b1: Int, b2: Int) {
     val alice = (if (a0 > b0) 1 else 0) + (if (a1 > b1) 1 else 0) + if (a2 > b2) 1 else 0
     val bob = (if (a0 > b0) 1 else 0) + (if (a1 > b1) 1 else 0) + if (a2 > b2) 1 else 0
 
-    print("${alice} ${bob}")
+    print("$alice $bob")
 
 }
