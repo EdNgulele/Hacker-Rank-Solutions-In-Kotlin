@@ -1,9 +1,8 @@
 package Algorithms.Warmup
 
-import java.util.*
+import java.util.Scanner
 
 fun main(args: Array<String>) {
-
 
     val input = Scanner(System.`in`)
     print("Size: ")
@@ -16,16 +15,18 @@ fun sumArray(size: Int) {
 
     val input = Scanner(System.`in`)
     val numbers = IntArray(size)
+    var item : Int ?
+    var sum = 0
 
-    for (item in numbers) {
-
-        println("${item}. Number: ")
-        val ii = input.nextInt()
-        numbers.set(item, ii)
-
+    for (i in 1..size) {
+        println("$i. Number: ")
+        item = input.nextInt()
+        numbers.set(i-1, item)
     }
 
-    for (item in numbers)
-        print(item)
+    for (item in numbers) {
+        sum+=item
+    }
+    print(sum)
 }
 
