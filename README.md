@@ -1,1 +1,1 @@
-# Hacker-Rank-Solutions-In-Algorithms.Implementation.Kotlin
+# Hacker-Rank-Solutions-In-Kotlin
