@@ -1,4 +1,4 @@
-package Algorithms.Warmup;
+package Algorithms.Warmup.Java;
 
 public class BirthdayCakeCandles {
     public static void main(String[] args) {

@@ -1,27 +1,10 @@
-package Algorithms.Warmup;
+package Algorithms.Warmup.Java;
 
 public class TimeConversion {
 
     public static void main(String[] args) {
 
         String input = "04:59:59AM";
-//        String[] time = input.split(":");
-//
-//        int hour = Integer.parseInt(time[0]);
-//        String minute = time[1];
-//        String seconds = time[2].substring(0, 2);
-//
-//        String convertedTime = null;
-//
-//        char format = input.charAt(input.length() - 2);
-//
-//        if (format == 'P') {
-//            hour += 12;
-//            convertedTime = hour + ":" + minute + ":" + seconds;
-//        } else if (format == 'A') {
-//            convertedTime = hour + ":" + minute + ":" + seconds;
-//
-//        }
 
         System.out.println(timeConversion(input));
 

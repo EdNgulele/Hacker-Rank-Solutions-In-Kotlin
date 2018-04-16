@@ -1,6 +1,6 @@
-package Algorithms.Warmup
+package Algorithms.Warmup.Kotlin
 
-import java.util.Scanner
+import java.util.*
 
 
 fun main(args: Array<String>) {

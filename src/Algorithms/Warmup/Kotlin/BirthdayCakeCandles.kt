@@ -1,11 +1,6 @@
-package Algorithms.Warmup
+package Algorithms.Warmup.Kotlin
 
 import java.util.*
-
-
-/*
- * Complete the birthdayCakeCandles function below.
- */
 
 
 fun main(args: Array<String>) {
@@ -22,9 +17,6 @@ fun main(args: Array<String>) {
 }
 
 fun birthdayCakeCandles(n: Int, ar: Array<Int>): Int {
-    /*
-     * Write your code here.
-     */
 
     var tallestCandle = 0
     var height = 0

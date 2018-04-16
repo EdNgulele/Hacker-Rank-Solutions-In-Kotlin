@@ -1,4 +1,4 @@
-package Algorithms.Warmup
+package Algorithms.Warmup.Kotlin
 
 import java.util.Scanner
 
@@ -19,7 +19,7 @@ fun main(args: Array<String>) {
     print("b21: ")
     val b2: Int = input.nextInt()
 
-    compareTheTriplets(a0,a1,a2,b0,b1,b2)
+    compareTheTriplets(a0, a1, a2, b0, b1, b2)
 
 }
 

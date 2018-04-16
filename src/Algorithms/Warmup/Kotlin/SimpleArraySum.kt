@@ -1,4 +1,4 @@
-package Algorithms.Warmup
+package Algorithms.Warmup.Kotlin
 
 import java.util.Scanner
 
