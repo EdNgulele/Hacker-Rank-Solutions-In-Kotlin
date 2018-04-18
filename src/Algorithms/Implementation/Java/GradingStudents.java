@@ -18,9 +18,7 @@ public class GradingStudents {
 
         int[] roundedGrades = new int[grades.length];
 
-
         for (int i = 0; i < grades.length; i++) {
-
 
             if ((grades[i] + 1) % 5 == 0 && (grades[i] >= 38)) {
                 roundedGrades[i] = grades[i] + 1;
@@ -31,7 +29,6 @@ public class GradingStudents {
             }
 
         }
-
 
         return roundedGrades;
     }
