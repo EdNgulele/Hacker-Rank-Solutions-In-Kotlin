@@ -28,17 +28,15 @@ public class AppleAndOrange {
 
         for (int i = 0; i < apples.length; i++) {
             landing = a + apples[i];
-            if (landing >= s && landing <= t) {
+            if (landing >= s && landing <= t) 
                 bobPoints++;
-            }
         }
 
         for (int i = 0; i < oranges.length; i++) {
             landing = b + oranges[i];
 
-            if (landing >= s && landing <= t) {
+            if (landing >= s && landing <= t) 
                 larryPoints++;
-            }
         }
 
         System.out.println(bobPoints );
