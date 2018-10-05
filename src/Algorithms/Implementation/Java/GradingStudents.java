@@ -8,10 +8,8 @@ public class GradingStudents {
 
         int[] resut = gradingStudents(grades);
 
-        for (int i = 0; i < resut.length; i++) {
+        for (int i = 0; i < resut.length; i++) 
             System.out.println(resut[i]);
-        }
-
     }
 
     static int[] gradingStudents(int[] grades) {
@@ -20,14 +18,12 @@ public class GradingStudents {
 
         for (int i = 0; i < grades.length; i++) {
 
-            if ((grades[i] + 1) % 5 == 0 && (grades[i] >= 38)) {
+            if ((grades[i] + 1) % 5 == 0 && (grades[i] >= 38))
                 roundedGrades[i] = grades[i] + 1;
-            } else if ((grades[i] + 2) % 5 == 0 && (grades[i] >= 38)) {
+            else if ((grades[i] + 2) % 5 == 0 && (grades[i] >= 38))
                 roundedGrades[i] = grades[i] + 2;
-            } else {
+            else 
                 roundedGrades[i] = grades[i];
-            }
-
         }
 
         return roundedGrades;
